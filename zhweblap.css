@@ -1,0 +1,85 @@
+body {
+    background-color: rgb(252, 199, 232);
+    
+}
+
+h1 {
+    background-color: rgb(201, 58, 153);
+    width: 130px;
+    border-radius: 5px;
+    text-indent: 5%;
+    font-family: 'lucida handwriting', cursive;
+    font-size: medium;
+}
+
+h2 {
+    text-align: center;
+    font-family: "lucida handwriting", cursive;
+}
+
+#bemutatkozás, #p1, #p2 {
+    background-color: rgb(201, 58, 153);
+}
+
+#p1, #p2 {
+    width: 40%;
+}
+
+.textbox {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 2%;
+    border-radius: 8px;
+    padding: 20px; /* Belső távolság */
+    background-color: #f9f9f9;
+    max-width: 500px; /* Maximum szélesség */
+    margin: auto; /* Középre igazítás */
+}
+
+.elso{
+    background-color:rgba(201, 58, 153, 0.763) ;
+    border-radius: 8px;
+    background-size: 50px;
+    text-align: center;
+    font-family: "lucida handwriting", cursive;
+    font-size: medium;
+}
+
+.minták {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 2%;
+    padding: 20px;
+}
+
+.dino {
+    display: grid;
+    grid-template-columns: 2fr;
+    gap: 1%;
+    padding: 20px;
+    background-color: lightblue;
+    border: 1px solid #f9f9f9;
+    border-radius: 8px;
+}
+
+
+.hoember {
+    display: grid;
+    grid-template-columns: 2fr;
+    gap: 1%;
+    padding: 20px;
+    background-color: #c45c5c;
+    border: 1px solid #f9f9f9;
+    border-radius: 8px;  
+}
+
+.cimd {
+    font-family: 'lucida handwriting', cursive;
+    font-size: medium;
+}
+
+.cimh {
+    font-family: 'lucida handwriting', cursive;
+    font-size: medium;
+}
+
