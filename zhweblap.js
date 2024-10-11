@@ -1,4 +1,4 @@
-const apiKey = 'd23a0446158caa0ad2c59f8701a057b1'; // Helyettesítsd be a saját API kulcsoddal
+const apiKey = 'ac4186be99364d4318f65d99dbfcce38'; // Helyettesítsd be a saját API kulcsoddal
 
 $(document).ready(function() {
     $('#getWeather').click(function() {
